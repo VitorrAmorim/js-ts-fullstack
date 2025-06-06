@@ -25,9 +25,49 @@ ORDERM DE PRECENDÊNCIA
 4° - + / -
 */
 
-let contador = 1;
-contador++; // 2
-contador++; // 3
-++contador; // 4
-++contador; // 5
+/*
+INCREMENTO = ++
+DECREMENTO = --
+*/
+
+let incrementar = 1;
+// Executa o comando e depois incrementar
+incrementar++; // 2
+incrementar++; // 3
+// Incrementa e depois executa o comando
+++incrementar; // 4
+++incrementar; // 5
+console.log(incrementar);
+
+let decrementar = 10;
+// Executa o comando e depois decrementa
+decrementar--; // 9
+decrementar--; // 8
+// Decrementa e depois executa o comando
+--decrementar; // 7
+--decrementar; // 6
+console.log(decrementar);
+
+/*
+OPERADORES DE ATRIBUIÇÃO
+*/
+let contador = 2;
+contador += 2;
+contador -= 2;
+contador *= 2;
+contador **= 2;
 console.log(contador);
+
+const num4 = 30;
+const num5 = "Charizard";
+console.log(num4 * num5); // Retornará um NaN (Not a Number)
+
+const numero = 2;
+const letra = "5";
+console.log(numero + letra); // Fará a concatenação / conta
+
+const numInt = parseInt("5"); // Transformará a String para Int (inteiro)
+const numFloat = parseFloat("5.5"); // Transformará a String para Float (decimais)
+console.log(numInt + numFloat);
+console.log(typeof numInt);
+console.log(typeof numFloat);
