@@ -15,3 +15,6 @@ console.log(umaString.lastIndexOf("a", 8)); // Mostra o index de um determinado 
 console.log(umaString.match(/[a-z]/g)); // Expressão Regular - essa em específico mostra letras minusculas no elemento
 
 console.log(umaString.replace("São", "S")); // Fará a substituição dos elementos
+
+console.log(umaString.length); // Mostrá o tamanho do index do elemento
+
